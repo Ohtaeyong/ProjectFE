@@ -11,7 +11,7 @@ const App = () => {
       <Route path="/" element={<FrontLayout />}>
         <Route index element={<Main />} />
         <Route path="/join" element={<Join />} />
-        <Route path="/login" elemen={<Login />} />
+        <Route path="/login" element={<Login />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
